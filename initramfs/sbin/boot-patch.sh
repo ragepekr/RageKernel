@@ -6,7 +6,7 @@
 /sbin/ext/busybox sh /sbin/boot/install.sh
 #/sbin/ext/busybox sh /sbin/boot/tweaks.sh
 /sbin/ext/busybox sh /sbin/boot/scripts.sh
-/sbin/ext/busybox sh /sbin/boot/reset.sh
+/sbin/ext/busybox sh /sbin/boot/count_reset.sh
 
 read sync < /data/sync_fifo
 rm /data/sync_fifo
